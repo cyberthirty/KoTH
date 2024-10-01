@@ -1,0 +1,6 @@
+/var/www/html/web3/flag.txt
+/var/www/html/web2/flag.txt
+/root/flag4.txt
+/home/duku/flag3.txt
+/home/yoda/flag2.txt
+/home/bobba/flag1.txt
