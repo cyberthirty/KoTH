@@ -1,5 +1,6 @@
+# Carnage
 
-### How to Use the hashexec.sh
+## How to Use the hashexec.sh
 
 1. **Make it Executable**:
    Run the following command to make the script executable:
@@ -20,11 +21,11 @@
      ./hashexec.sh "74686d7b38393334623432653339656133613135323962333633393039353466306632617d" hex
      ```
 
-### Expected Output
-- For ROT13 input:
-   ```
-   ROT13 converted: flag
-   ```
+3. **Expected Output**
+   - For ROT13 input:
+      ```
+      ROT13 converted: flag
+      ```
 
 
 ## cred
