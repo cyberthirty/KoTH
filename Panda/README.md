@@ -1,3 +1,6 @@
+web po:password1
+ssh shifu:badman
+
 ┌──(root㉿kali)-[~]
 └─# ifconfig
 eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
@@ -569,3 +572,757 @@ sh-4.2# cat king.txt
 cyber30
 sh-4.2# wc .flag
  1  1 45 .flag
+
+h-4.2# ls
+king.txt  koth
+sh-4.2# id
+uid=0(root) gid=0(root) groups=0(root)
+sh-4.2# ls
+king.txt  koth
+sh-4.2# cat king.txt
+cyber30
+sh-4.2# alias la='ls -al'
+sh-4.2# la /home
+total 0
+drwxr-xr-x.  5 root    root     44 Apr 10  2020 .
+dr-xr-xr-x. 17 root    root    224 Apr  8  2020 ..
+drwx------   3 po      po      111 Apr 12  2020 po
+drwx------   2 shifu   shifu   115 Oct  2 14:30 shifu
+drwx------   3 tigress tigress 143 Apr 11  2020 tigress
+sh-4.2# la /home/po
+total 20
+drwx------  3 po   po   111 Apr 12  2020 .
+drwxr-xr-x. 5 root root  44 Apr 10  2020 ..
+-rw-------  1 po   po    12 Apr 12  2020 .bash_history
+-rw-r--r--  1 po   po    18 Apr 10  2018 .bash_logout
+-rw-r--r--  1 po   po   193 Apr 10  2018 .bash_profile
+-rw-r--r--  1 po   po   231 Apr 10  2018 .bashrc
+-rw-r--r--  1 po   po    45 Apr 11  2020 flag.txt
+drwx------  2 po   po    61 Apr 12  2020 .ssh
+sh-4.2# la /home/shifu
+total 20
+drwx------  2 shifu shifu 115 Oct  2 14:30 .
+drwxr-xr-x. 5 root  root   44 Apr 10  2020 ..
+lrwxrwxrwx  1 root  root    9 Apr 11  2020 .bash_history -> /dev/null
+-rw-r--r--  1 shifu shifu  18 Apr 10  2018 .bash_logout
+-rw-r--r--  1 shifu shifu 193 Apr 10  2018 .bash_profile
+-rw-r--r--  1 shifu shifu 231 Apr 10  2018 .bashrc
+-rw-r--r--  1 shifu shifu  45 Apr 11  2020 flag.txt
+-rw-------  1 shifu shifu 776 Oct  2 14:30 .viminfo
+sh-4.2# la /home/tigress/
+total 24
+drwx------  3 tigress tigress 143 Apr 11  2020 .
+drwxr-xr-x. 5 root    root     44 Apr 10  2020 ..
+lrwxrwxrwx  1 root    root      9 Apr 11  2020 .bash_history -> /dev/null
+-rw-r--r--  1 tigress tigress  18 Apr 10  2018 .bash_logout
+-rw-r--r--  1 tigress tigress 193 Apr 10  2018 .bash_profile
+-rw-r--r--  1 tigress tigress 231 Apr 10  2018 .bashrc
+-rwxr-xr-x  1 tigress tigress  57 Apr 11  2020 check.sh
+-rw-r--r--  1 tigress tigress  45 Apr 11  2020 flag.txt
+drwx------  2 tigress tigress  61 Apr 10  2020 .ssh
+-rw-------  1 tigress tigress 611 Apr 10  2020 .viminfo
+sh-4.2# la /
+total 32
+dr-xr-xr-x.  17 root root  224 Apr  8  2020 .
+dr-xr-xr-x.  17 root root  224 Apr  8  2020 ..
+lrwxrwxrwx.   1 root root    7 Apr  8  2020 bin -> usr/bin
+dr-xr-xr-x.   5 root root 4096 Apr 12  2020 boot
+drwxr-xr-x   19 root root 2980 Oct  2 14:26 dev
+drwxr-xr-x.  90 root root 8192 Apr 12  2020 etc
+drwxr-xr-x.   5 root root   44 Apr 10  2020 home
+lrwxrwxrwx.   1 root root    7 Apr  8  2020 lib -> usr/lib
+lrwxrwxrwx.   1 root root    9 Apr  8  2020 lib64 -> usr/lib64
+drwxr-xr-x.   2 root root    6 Apr 11  2018 media
+drwxr-xr-x.   2 root root    6 Apr 11  2018 mnt
+drwxr-xr-x.   3 root root   83 Apr 10  2020 opt
+dr-xr-xr-x  148 root root    0 Oct  2 14:26 proc
+dr-xr-x---.   5 root root 4096 Apr 12  2020 root
+drwxr-xr-x   28 root root  860 Oct  2 14:31 run
+lrwxrwxrwx.   1 root root    8 Apr  8  2020 sbin -> usr/sbin
+drwxr-xr-x.   3 root root   19 Apr 11  2020 srv
+dr-xr-xr-x   13 root root    0 Oct  2 14:26 sys
+drwxrwxrwt.  14 root root 4096 Oct  2 14:41 tmp
+drwxr-xr-x.  13 root root  155 Apr  8  2020 usr
+drwxr-xr-x.  21 root root 4096 Apr 11  2020 var
+sh-4.2# la /var
+total 20
+drwxr-xr-x. 21 root root  4096 Apr 11  2020 .
+dr-xr-xr-x. 17 root root   224 Apr  8  2020 ..
+drwxr-xr-x.  2 root root     6 Apr 11  2018 adm
+drwxr-xr-x.  6 root root    57 Apr 10  2020 cache
+drwxr-xr-x.  2 root root     6 Apr 12  2018 crash
+drwxr-xr-x.  3 root root    34 Apr 11  2020 db
+drwxr-xr-x.  3 root root    18 Apr  8  2020 empty
+drwxr-xr-x.  2 root root     6 Apr 11  2018 games
+drwxr-xr-x.  2 root root     6 Apr 11  2018 gopher
+drwxr-xr-x.  3 root root    18 Apr  8  2020 kerberos
+drwxr-xr-x. 33 root root  4096 Apr 11  2020 lib
+drwxr-xr-x.  2 root root     6 Apr 11  2018 local
+lrwxrwxrwx.  1 root root    11 Apr  8  2020 lock -> ../run/lock
+drwxr-xr-x. 13 root root  4096 Oct  2 14:26 log
+lrwxrwxrwx.  1 root root    10 Apr  8  2020 mail -> spool/mail
+drwxrwx--T   5 root named  152 Apr 16  2020 named
+drwxr-xr-x.  2 root root     6 Apr 11  2018 nis
+drwxr-xr-x.  2 root root     6 Apr 11  2018 opt
+drwxr-xr-x.  2 root root     6 Apr 11  2018 preserve
+lrwxrwxrwx.  1 root root     6 Apr  8  2020 run -> ../run
+drwxr-xr-x.  9 root root   100 Apr 11  2020 spool
+drwxrwxrwt.  8 root root  4096 Oct  2 14:41 tmp
+-rw-r--r--.  1 root root   163 Apr  8  2020 .updated
+drwxr-xr-x   4 root root    33 Apr 10  2020 www
+drwxr-xr-x.  2 root root     6 Apr 11  2018 yp
+sh-4.2# la /var/www
+total 4
+drwxr-xr-x   4 root root   33 Apr 10  2020 .
+drwxr-xr-x. 21 root root 4096 Apr 11  2020 ..
+drwxr-xr-x   2 root root    6 Aug  8  2019 cgi-bin
+drwxr-xr-x   5 root root  143 Apr 12  2020 html
+sh-4.2# la /var/www/cgi-bin
+total 0
+drwxr-xr-x 2 root root  6 Aug  8  2019 .
+drwxr-xr-x 4 root root 33 Apr 10  2020 ..
+sh-4.2# la /var/www/html
+total 92
+drwxr-xr-x 5 root  root    143 Apr 12  2020 .
+drwxr-xr-x 4 root  root     33 Apr 10  2020 ..
+drwxr-xr-x 2 shifu shifu    35 Apr 11  2020 06d63d6798d9b6c2f987f045b12031d6
+drwxr-xr-x 2 shifu shifu    24 Apr 10  2020 flag
+-rw-r--r-- 1 shifu shifu 75856 Apr 12  2020 image.jpg
+-rw-r--r-- 1 shifu shifu   230 Apr 12  2020 index.html
+-rw-r--r-- 1 shifu shifu  1345 Apr 10  2020 key.gpg
+-rw-r--r-- 1 shifu shifu    10 Apr 11  2020 robots.txt
+drwxr-xr-x 5 shifu shifu  4096 Apr 10  2020 wordpress
+sh-4.2# cat /var/www/html/flag
+cat: /var/www/html/flag: Is a directory
+sh-4.2# cat /var/www/html/flag/
+cat: /var/www/html/flag/: Is a directory
+sh-4.2# la /var/www/html/flag
+total 4
+drwxr-xr-x 2 shifu shifu  24 Apr 10  2020 .
+drwxr-xr-x 5 root  root  143 Apr 12  2020 ..
+-rw-r--r-- 1 shifu shifu  89 Apr 10  2020 index.html
+sh-4.2# cat /var/www/html/flag/index.html
+5a4449794d4745314e475a694d6d59775a6a41344f4755335a5749324d7a526d5957526a5a4751354e32593d
+sh-4.2# sudo find / -name "flag" 2>/dev/null
+/var/www/html/flag
+/var/www/html/06d63d6798d9b6c2f987f045b12031d6/flag
+/usr/local/go/src/flag
+sh-4.2# cat /var/www/html/06d63d6798d9b6c2f987f045b12031d6/flag
+7c9d7869bcea01064694c8c59e596bdd
+sh-4.2# ls
+king.txt  koth
+sh-4.2# ls /usr/local/go/src/flag
+example_test.go  example_value_test.go  export_test.go  flag.go  flag_test.go
+sh-4.2# la /var/www/html/flag
+total 4
+drwxr-xr-x 2 shifu shifu  24 Apr 10  2020 .
+drwxr-xr-x 5 root  root  143 Apr 12  2020 ..
+-rw-r--r-- 1 shifu shifu  89 Apr 10  2020 index.html
+sh-4.2# sudo find / -name "user" 2>/dev/null
+/proc/sys/user
+/proc/1/task/1/ns/user
+/proc/1/ns/user
+/proc/2/task/2/ns/user
+/proc/2/ns/user
+/proc/3/task/3/ns/user
+/proc/3/ns/user
+/proc/5/task/5/ns/user
+/proc/5/ns/user
+/proc/6/task/6/ns/user
+/proc/6/ns/user
+/proc/7/task/7/ns/user
+/proc/7/ns/user
+/proc/8/task/8/ns/user
+/proc/8/ns/user
+/proc/9/task/9/ns/user
+/proc/9/ns/user
+/proc/10/task/10/ns/user
+/proc/10/ns/user
+/proc/11/task/11/ns/user
+/proc/11/ns/user
+/proc/13/task/13/ns/user
+/proc/13/ns/user
+/proc/14/task/14/ns/user
+/proc/14/ns/user
+/proc/15/task/15/ns/user
+/proc/15/ns/user
+/proc/16/task/16/ns/user
+/proc/16/ns/user
+/proc/18/task/18/ns/user
+/proc/18/ns/user
+/proc/19/task/19/ns/user
+/proc/19/ns/user
+/proc/20/task/20/ns/user
+/proc/20/ns/user
+/proc/21/task/21/ns/user
+/proc/21/ns/user
+/proc/22/task/22/ns/user
+/proc/22/ns/user
+/proc/23/task/23/ns/user
+/proc/23/ns/user
+/proc/24/task/24/ns/user
+/proc/24/ns/user
+/proc/29/task/29/ns/user
+/proc/29/ns/user
+/proc/30/task/30/ns/user
+/proc/30/ns/user
+/proc/31/task/31/ns/user
+/proc/31/ns/user
+/proc/32/task/32/ns/user
+/proc/32/ns/user
+/proc/40/task/40/ns/user
+/proc/40/ns/user
+/proc/42/task/42/ns/user
+/proc/42/ns/user
+/proc/43/task/43/ns/user
+/proc/43/ns/user
+/proc/44/task/44/ns/user
+/proc/44/ns/user
+/proc/46/task/46/ns/user
+/proc/46/ns/user
+/proc/59/task/59/ns/user
+/proc/59/ns/user
+/proc/90/task/90/ns/user
+/proc/90/ns/user
+/proc/269/task/269/ns/user
+/proc/269/ns/user
+/proc/273/task/273/ns/user
+/proc/273/ns/user
+/proc/274/task/274/ns/user
+/proc/274/ns/user
+/proc/275/task/275/ns/user
+/proc/275/ns/user
+/proc/276/task/276/ns/user
+/proc/276/ns/user
+/proc/277/task/277/ns/user
+/proc/277/ns/user
+/proc/341/task/341/ns/user
+/proc/341/ns/user
+/proc/342/task/342/ns/user
+/proc/342/ns/user
+/proc/352/task/352/ns/user
+/proc/352/ns/user
+/proc/353/task/353/ns/user
+/proc/353/ns/user
+/proc/365/task/365/ns/user
+/proc/365/ns/user
+/proc/366/task/366/ns/user
+/proc/366/ns/user
+/proc/367/task/367/ns/user
+/proc/367/ns/user
+/proc/368/task/368/ns/user
+/proc/368/ns/user
+/proc/369/task/369/ns/user
+/proc/369/ns/user
+/proc/370/task/370/ns/user
+/proc/370/ns/user
+/proc/371/task/371/ns/user
+/proc/371/ns/user
+/proc/372/task/372/ns/user
+/proc/372/ns/user
+/proc/373/task/373/ns/user
+/proc/373/ns/user
+/proc/374/task/374/ns/user
+/proc/374/ns/user
+/proc/375/task/375/ns/user
+/proc/375/ns/user
+/proc/376/task/376/ns/user
+/proc/376/ns/user
+/proc/443/task/443/ns/user
+/proc/443/ns/user
+/proc/466/task/466/ns/user
+/proc/466/ns/user
+/proc/474/task/474/ns/user
+/proc/474/ns/user
+/proc/534/task/534/ns/user
+/proc/534/ns/user
+/proc/546/task/546/ns/user
+/proc/546/ns/user
+/proc/547/task/547/ns/user
+/proc/547/ns/user
+/proc/548/task/548/ns/user
+/proc/548/ns/user
+/proc/549/task/549/ns/user
+/proc/549/ns/user
+/proc/550/task/550/ns/user
+/proc/550/ns/user
+/proc/551/task/551/ns/user
+/proc/551/ns/user
+/proc/552/task/552/ns/user
+/proc/552/ns/user
+/proc/553/task/553/ns/user
+/proc/553/ns/user
+/proc/569/task/569/ns/user
+/proc/569/task/570/ns/user
+/proc/569/ns/user
+/proc/593/task/593/ns/user
+/proc/593/task/609/ns/user
+/proc/593/task/610/ns/user
+/proc/593/task/611/ns/user
+/proc/593/task/612/ns/user
+/proc/593/ns/user
+/proc/597/task/597/ns/user
+/proc/597/task/624/ns/user
+/proc/597/task/625/ns/user
+/proc/597/task/626/ns/user
+/proc/597/task/627/ns/user
+/proc/597/task/628/ns/user
+/proc/597/ns/user
+/proc/601/task/601/ns/user
+/proc/601/ns/user
+/proc/614/task/614/ns/user
+/proc/614/ns/user
+/proc/616/task/616/ns/user
+/proc/616/task/630/ns/user
+/proc/616/task/632/ns/user
+/proc/616/ns/user
+/proc/617/task/617/ns/user
+/proc/617/ns/user
+/proc/619/task/619/ns/user
+/proc/619/ns/user
+/proc/853/task/853/ns/user
+/proc/853/ns/user
+/proc/910/task/910/ns/user
+/proc/910/task/1617/ns/user
+/proc/910/task/1618/ns/user
+/proc/910/task/1619/ns/user
+/proc/910/task/1632/ns/user
+/proc/910/ns/user
+/proc/913/task/913/ns/user
+/proc/913/ns/user
+/proc/925/task/925/ns/user
+/proc/925/ns/user
+/proc/927/task/927/ns/user
+/proc/927/task/974/ns/user
+/proc/927/task/1031/ns/user
+/proc/927/ns/user
+/proc/929/task/929/ns/user
+/proc/929/ns/user
+/proc/933/task/933/ns/user
+/proc/933/ns/user
+/proc/934/task/934/ns/user
+/proc/934/ns/user
+/proc/1061/task/1061/ns/user
+/proc/1061/task/1350/ns/user
+/proc/1061/task/1362/ns/user
+/proc/1061/task/1386/ns/user
+/proc/1061/task/1400/ns/user
+/proc/1061/task/1466/ns/user
+/proc/1061/task/1469/ns/user
+/proc/1061/task/1472/ns/user
+/proc/1061/task/1475/ns/user
+/proc/1061/task/1478/ns/user
+/proc/1061/task/1664/ns/user
+/proc/1061/task/1667/ns/user
+/proc/1061/task/1674/ns/user
+/proc/1061/task/1675/ns/user
+/proc/1061/task/1678/ns/user
+/proc/1061/task/1679/ns/user
+/proc/1061/task/1680/ns/user
+/proc/1061/task/1681/ns/user
+/proc/1061/task/1682/ns/user
+/proc/1061/task/1683/ns/user
+/proc/1061/task/1684/ns/user
+/proc/1061/task/1685/ns/user
+/proc/1061/task/1686/ns/user
+/proc/1061/task/1687/ns/user
+/proc/1061/task/1688/ns/user
+/proc/1061/task/1689/ns/user
+/proc/1061/task/1690/ns/user
+/proc/1061/task/1691/ns/user
+/proc/1061/task/1973/ns/user
+/proc/1061/task/1974/ns/user
+/proc/1061/task/1977/ns/user
+/proc/1061/task/1981/ns/user
+/proc/1061/task/1985/ns/user
+/proc/1061/task/1986/ns/user
+/proc/1061/task/1987/ns/user
+/proc/1061/task/1988/ns/user
+/proc/1061/ns/user
+/proc/1068/task/1068/ns/user
+/proc/1068/task/1087/ns/user
+/proc/1068/task/1088/ns/user
+/proc/1068/task/1089/ns/user
+/proc/1068/ns/user
+/proc/1123/task/1123/ns/user
+/proc/1123/ns/user
+/proc/1136/task/1136/ns/user
+/proc/1136/ns/user
+/proc/1299/task/1299/ns/user
+/proc/1299/task/1416/ns/user
+/proc/1299/task/1417/ns/user
+/proc/1299/task/1418/ns/user
+/proc/1299/task/1419/ns/user
+/proc/1299/task/1420/ns/user
+/proc/1299/task/1421/ns/user
+/proc/1299/task/1422/ns/user
+/proc/1299/task/1423/ns/user
+/proc/1299/task/1424/ns/user
+/proc/1299/task/1425/ns/user
+/proc/1299/task/1641/ns/user
+/proc/1299/task/1642/ns/user
+/proc/1299/task/1643/ns/user
+/proc/1299/task/1644/ns/user
+/proc/1299/task/1645/ns/user
+/proc/1299/task/1646/ns/user
+/proc/1299/task/1656/ns/user
+/proc/1299/task/1657/ns/user
+/proc/1299/ns/user
+/proc/1340/task/1340/ns/user
+/proc/1340/ns/user
+/proc/1341/task/1341/ns/user
+/proc/1341/ns/user
+/proc/1342/task/1342/ns/user
+/proc/1342/ns/user
+/proc/1356/task/1356/ns/user
+/proc/1356/ns/user
+/proc/1357/task/1357/ns/user
+/proc/1357/ns/user
+/proc/1358/task/1358/ns/user
+/proc/1358/ns/user
+/proc/1359/task/1359/ns/user
+/proc/1359/ns/user
+/proc/1360/task/1360/ns/user
+/proc/1360/ns/user
+/proc/1361/task/1361/ns/user
+/proc/1361/ns/user
+/proc/1388/task/1388/ns/user
+/proc/1388/ns/user
+/proc/1389/task/1389/ns/user
+/proc/1389/ns/user
+/proc/1391/task/1391/ns/user
+/proc/1391/ns/user
+/proc/1401/task/1401/ns/user
+/proc/1401/ns/user
+/proc/1402/task/1402/ns/user
+/proc/1402/ns/user
+/proc/1577/task/1577/ns/user
+/proc/1577/ns/user
+/proc/1578/task/1578/ns/user
+/proc/1578/ns/user
+/proc/1647/task/1647/ns/user
+/proc/1647/ns/user
+/proc/1698/task/1698/ns/user
+/proc/1698/ns/user
+/proc/1704/task/1704/ns/user
+/proc/1704/ns/user
+/proc/1708/task/1708/ns/user
+/proc/1708/ns/user
+/proc/1728/task/1728/ns/user
+/proc/1728/ns/user
+/proc/1729/task/1729/ns/user
+/proc/1729/ns/user
+/proc/1732/task/1732/ns/user
+/proc/1732/ns/user
+/proc/1733/task/1733/ns/user
+/proc/1733/ns/user
+/proc/1740/task/1740/ns/user
+/proc/1740/ns/user
+/proc/1747/task/1747/ns/user
+/proc/1747/ns/user
+/proc/1751/task/1751/ns/user
+/proc/1751/ns/user
+/proc/1759/task/1759/ns/user
+/proc/1759/ns/user
+/proc/1762/task/1762/ns/user
+/proc/1762/ns/user
+/proc/1764/task/1764/ns/user
+/proc/1764/ns/user
+/proc/1766/task/1766/ns/user
+/proc/1766/ns/user
+/proc/1848/task/1848/ns/user
+/proc/1848/ns/user
+/proc/1916/task/1916/ns/user
+/proc/1916/ns/user
+/proc/1918/task/1918/ns/user
+/proc/1918/ns/user
+/proc/1919/task/1919/ns/user
+/proc/1919/ns/user
+/proc/1964/task/1964/ns/user
+/proc/1964/ns/user
+/proc/1965/task/1965/ns/user
+/proc/1965/ns/user
+/proc/2026/task/2026/ns/user
+/proc/2026/ns/user
+/proc/2027/task/2027/ns/user
+/proc/2027/ns/user
+/proc/2033/task/2033/ns/user
+/proc/2033/ns/user
+/proc/2063/task/2063/ns/user
+/proc/2063/ns/user
+/proc/2615/task/2615/ns/user
+/proc/2615/ns/user
+/proc/7442/task/7442/ns/user
+/proc/7442/ns/user
+/proc/11632/task/11632/ns/user
+/proc/11632/ns/user
+/proc/22051/task/22051/ns/user
+/proc/22051/ns/user
+/proc/26908/task/26908/ns/user
+/proc/26908/ns/user
+/proc/28282/task/28282/ns/user
+/proc/28282/ns/user
+/proc/28284/task/28284/ns/user
+/proc/28284/ns/user
+/proc/28285/task/28285/ns/user
+/proc/28285/ns/user
+/run/user
+/etc/systemd/user
+/etc/xdg/systemd/user
+/var/kerberos/krb5/user
+/var/www/html/wordpress/wp-admin/user
+/usr/lib/systemd/user
+/usr/local/go/src/os/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/arch/has/debug/strict/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/crypto/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/have/perf/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/have/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/infiniband/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/rcu/user
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/user
+sh-4.2# ls
+king.txt  koth
+sh-4.2# sudo find / -type f -name "*flag*" 2>/dev/null
+/proc/sys/kernel/acpi_video_flags
+/proc/kpageflags
+/sys/devices/pnp0/00:06/tty/ttyS0/flags
+/sys/devices/vif-0/net/eth0/flags
+/sys/devices/system/cpu/cpu0/microcode/processor_flags
+/sys/devices/virtual/net/lo/flags
+/sys/devices/platform/serial8250/tty/ttyS1/flags
+/sys/devices/platform/serial8250/tty/ttyS2/flags
+/sys/devices/platform/serial8250/tty/ttyS3/flags
+/sys/module/scsi_mod/parameters/default_dev_flags
+/root/.flag
+/var/www/html/wordpress/wp-includes/images/icon-pointer-flag.png
+/var/www/html/wordpress/wp-includes/images/icon-pointer-flag-2x.png
+/var/www/html/06d63d6798d9b6c2f987f045b12031d6/flag
+/usr/bin/pflags
+/usr/lib64/perl5/bits/waitflags.ph
+/usr/lib64/samba/libflag-mapping-samba4.so
+/usr/share/doc/neon-0.30.0/html/refreqflags.html
+/usr/share/doc/neon-0.30.0/html/refsessflags.html
+/usr/share/man/man3/function::get_sa_flags.3stap.gz
+/usr/share/man/man3/function::sa_flags_str.3stap.gz
+/usr/share/man/man3/probe::netdev.change_rx_flag.3stap.gz
+/usr/share/man/man3/probe::nfs.fop.check_flags.3stap.gz
+/usr/share/man/man3/xcb_xkb_set_debugging_flags.3.gz
+/usr/share/man/man3/xcb_xkb_set_debugging_flags_reply.3.gz
+/usr/share/man/man3/xcb_xkb_per_client_flags.3.gz
+/usr/share/man/man3/xcb_xkb_per_client_flags_reply.3.gz
+/usr/share/man/man3/xcb_xkb_set_debugging_flags_unchecked.3.gz
+/usr/share/man/man3/xcb_xkb_per_client_flags_unchecked.3.gz
+/usr/share/systemtap/runtime/linux/autoconf-get_user_pages_remote-flags.c
+/usr/share/systemtap/runtime/linux/autoconf-get_user_pages_remote-flags_locked.c
+/usr/share/systemtap/runtime/linux/autoconf-ring_buffer-flags.c
+/usr/share/tk8.5/demos/images/flagdown.xbm
+/usr/share/tk8.5/demos/images/flagup.xbm
+/usr/include/asm/processor-flags.h
+/usr/include/linux/kernel-page-flags.h
+/usr/include/linux/tty_flags.h
+/usr/include/bits/waitflags.h
+/usr/local/go/pkg/include/textflag.h
+/usr/local/go/pkg/linux_amd64/flag.a
+/usr/local/go/pkg/linux_amd64_race/flag.a
+/usr/local/go/src/cmd/asm/internal/flags/flags.go
+/usr/local/go/src/cmd/compile/internal/ssa/flagalloc.go
+/usr/local/go/src/cmd/go/internal/base/flag.go
+/usr/local/go/src/cmd/go/internal/base/goflags.go
+/usr/local/go/src/cmd/go/internal/cmdflag/flag.go
+/usr/local/go/src/cmd/go/internal/load/flag.go
+/usr/local/go/src/cmd/go/internal/load/flag_test.go
+/usr/local/go/src/cmd/go/internal/test/testflag.go
+/usr/local/go/src/cmd/go/internal/vet/vetflag.go
+/usr/local/go/src/cmd/go/testdata/script/build_gcflags.txt
+/usr/local/go/src/cmd/go/testdata/script/build_runtime_gcflags.txt
+/usr/local/go/src/cmd/go/testdata/script/gcflags_patterns.txt
+/usr/local/go/src/cmd/go/testdata/script/goflags.txt
+/usr/local/go/src/cmd/go/testdata/script/modfile_flag.txt
+/usr/local/go/src/cmd/go/testdata/script/test_flag.txt
+/usr/local/go/src/cmd/go/testdata/script/vet_flags.txt
+/usr/local/go/src/cmd/go/testdata/standalone_testmain_flag_test.go
+/usr/local/go/src/cmd/internal/obj/textflag.go
+/usr/local/go/src/cmd/internal/objabi/flag.go
+/usr/local/go/src/cmd/vendor/github.com/google/pprof/internal/driver/flags.go
+/usr/local/go/src/cmd/vendor/golang.org/x/tools/go/analysis/internal/analysisflags/flags.go
+/usr/local/go/src/flag/flag.go
+/usr/local/go/src/flag/flag_test.go
+/usr/local/go/src/runtime/cpuflags.go
+/usr/local/go/src/runtime/cpuflags_amd64.go
+/usr/local/go/src/runtime/textflag.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/arch/x86/include/asm/irqflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/arch/x86/include/asm/processor-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/arch/x86/include/uapi/asm/processor-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/asm-generic/irqflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/arch/hweight/cflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/arch/uses/high/vma/flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/trace/irqflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/zone/dma/flag.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/config/want/page/debug/flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/linux/kernel-page-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/linux/irqflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/linux/page-flags-layout.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/linux/page-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/linux/pageblock-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/trace/events/gfpflags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/uapi/linux/kernel-page-flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/include/uapi/linux/tty_flags.h
+/usr/src/kernels/3.10.0-1062.18.1.el7.x86_64.debug/scripts/coccinelle/locks/flags.cocci
+/home/po/flag.txt
+/home/shifu/flag.txt
+/home/tigress/flag.txt
+sh-4.2# pflags
+     1         systemd RANDOMIZE|SUPERPRIV|USED_MATH
+     2        kthreadd FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+     3     ksoftirqd/0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH
+     5    kworker/0:0H FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+     6   kworker/u30:0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+     7     migration/0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH
+     8          rcu_bh FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+     9       rcu_sched FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+    10   lru-add-drain FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    11      watchdog/0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|SUPERPRIV|USED_MATH
+    13       kdevtmpfs FORKNOEXEC|KTHREAD|NOFREEZE|SUPERPRIV|USED_MATH
+    14           netns FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    15        xenwatch FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+    16          xenbus FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+    18      khungtaskd FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+    19       writeback FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    20     kintegrityd FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    21          bioset FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    22         kblockd FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    23              md FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    24     edac-poller FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    29         kswapd0 FORKNOEXEC|KSWAPD|KTHREAD|MEMALLOC|SWAPWRITE|USED_MATH
+    30            ksmd FORKNOEXEC|FREEZER_SKIP|KTHREAD|USED_MATH
+    31      khugepaged FORKNOEXEC|FREEZER_SKIP|KTHREAD|USED_MATH
+    32          crypto FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    40        kthrotld FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    42    kmpath_rdacd FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    43          kaluad FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    44       kpsmoused FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    46   ipv6_addrconf FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    59         deferwq FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+    90         kauditd FORKNOEXEC|KTHREAD|USED_MATH
+   269         ata_sff FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   273       scsi_eh_0 FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+   274      scsi_tmf_0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   275       scsi_eh_1 FORKNOEXEC|KTHREAD|NOFREEZE|USED_MATH
+   276      scsi_tmf_1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   277   kworker/u30:3 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   341        kdmflush FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   342          bioset FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   352        kdmflush FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   353          bioset FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   365          bioset FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   366        xfsalloc FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   367   xfs_mru_cache FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   368    xfs-buf/dm-0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   369   xfs-data/dm-0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   370   xfs-conv/dm-0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   371    xfs-cil/dm-0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   372 xfs-reclaim/dm- FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   373    xfs-log/dm-0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   374 xfs-eofblocks/d FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   375    xfsaild/dm-0 FORKNOEXEC|FREEZER_SKIP|KTHREAD|MEMALLOC|USED_MATH
+   376    kworker/0:1H FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   443 systemd-journal RANDOMIZE|SUPERPRIV|USED_MATH
+   466         lvmetad FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   474   systemd-udevd RANDOMIZE|SUPERPRIV|USED_MATH
+   534        ttm_swap FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   546   xfs-buf/xvda1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   547  xfs-data/xvda1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   548  xfs-conv/xvda1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   549   xfs-cil/xvda1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   550 xfs-reclaim/xvd FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   551   xfs-log/xvda1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   552 xfs-eofblocks/x FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+   553   xfsaild/xvda1 FORKNOEXEC|FREEZER_SKIP|KTHREAD|MEMALLOC|USED_MATH
+   569          auditd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+   593            koth RANDOMIZE|SUPERPRIV|USED_MATH
+   597         polkitd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   601     dbus-daemon RANDOMIZE|SUPERPRIV|USED_MATH
+   614         chronyd FORKNOEXEC|FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   616  NetworkManager FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   617  systemd-logind RANDOMIZE|SUPERPRIV|USED_MATH
+   619           crond FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   853        dhclient FORKNOEXEC|FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   910           tuned FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   913         php-fpm RANDOMIZE|SUPERPRIV|USED_MATH
+   925            sshd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   927        rsyslogd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+   929            nmbd RANDOMIZE|SUPERPRIV|USED_MATH
+   933          agetty RANDOMIZE|SUPERPRIV|USED_MATH
+   934          agetty RANDOMIZE|SUPERPRIV|USED_MATH
+  1061            java FREEZER_SKIP|RANDOMIZE|USED_MATH
+  1068           named FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1123           httpd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1136     mysqld_safe RANDOMIZE|SUPERPRIV|USED_MATH
+  1299          mysqld FREEZER_SKIP|RANDOMIZE|USED_MATH
+  1340          master FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1341          pickup RANDOMIZE|SUPERPRIV|USED_MATH
+  1342            qmgr RANDOMIZE|SUPERPRIV|USED_MATH
+  1356            smbd RANDOMIZE|SUPERPRIV|USED_MATH
+  1357         php-fpm FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1358         php-fpm FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1359         php-fpm FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1360         php-fpm FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1361         php-fpm FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1388           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1389           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1391           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1401           nginx FORKNOEXEC|RANDOMIZE|USED_MATH
+  1402           nginx FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1577    smbd-notifyd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1578        cleanupd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1647            lpqd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1698            sshd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1704            sshd FORKNOEXEC|FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1708           rbash RANDOMIZE|USED_MATH
+  1728            find RANDOMIZE|SUPERPRIV|USED_MATH
+  1729              sh RANDOMIZE|SUPERPRIV|USED_MATH
+  1732            find RANDOMIZE|SUPERPRIV|USED_MATH
+  1733              sh RANDOMIZE|SUPERPRIV|USED_MATH
+  1740           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1747           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1751           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1759           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1762           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1764           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1766           httpd FORKNOEXEC|RANDOMIZE|SUPERPRIV|USED_MATH
+  1848             yum FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1916            sshd FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1918            sshd FORKNOEXEC|FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  1919           rbash RANDOMIZE|USED_MATH
+  1964             ftp RANDOMIZE|USED_MATH
+  1965              sh RANDOMIZE|USED_MATH
+  2026            sudo FREEZER_SKIP|RANDOMIZE|SUPERPRIV|USED_MATH
+  2027             ftp RANDOMIZE|SUPERPRIV|USED_MATH
+  2033              sh RANDOMIZE|SUPERPRIV|USED_MATH
+  2063              sh FORKNOEXEC|RANDOMIZE|USED_MATH
+  2615              sh FORKNOEXEC|RANDOMIZE|USED_MATH
+  7442     kworker/0:2 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+ 11632         anacron FORKNOEXEC|RANDOMIZE|USED_MATH
+ 22051     kworker/0:0 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+ 26908     kworker/0:1 FORKNOEXEC|KTHREAD|NOFREEZE|NO_SETAFFINITY|USED_MATH|WQ_WORKER
+ 30867           sleep FREEZER_SKIP|RANDOMIZE|USED_MATH
+ 30868           sleep FREEZER_SKIP|RANDOMIZE|USED_MATH
+ 30869          pflags RANDOMIZE|USED_MATH
+sh-4.2# ls
+king.txt  koth
+sh-4.2# cat king.txt
+cyber30
+sh-4.2# echo cyber30 > king.txt
+sh-4.2# cat king.txt
+cyber30
+sh-4.2# sudo find / -type f -name "*flag*" 2>/dev/null >info
+sh-4.2# less info
+sh-4.2# exit
+exit
+ftp> exit
+sh-4.2$ exit
+exit
+ftp> exit
+[shifu@panda ~]$ exit
+logout
+Connection to 10.10.132.160 closed.
